@@ -99,9 +99,69 @@ Now you will notice that the Tilda is now "~/Downloads" or "C:/Users/Username/Do
 ![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/f179a251-85e9-40ba-8745-6d482e2fe6e7)
 
 
+Additionally you can go multiple layers deep, or go backwards. I will show the example.
+
+To move back up the folders, or go backwards in folders you can use the "cd ..", the ".." indicates you want to go back.
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/99923117-ca2b-4d56-ad3f-441c035e6760)
+
+And now if I run the same command again I will show the Linux Structure a little more
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/e524a278-b51e-4202-b5fb-fafafd8baba9)
+
+Now, if you're confortable with it and you know the directory structure well on you machine you can move multiple folders at a time by chaining the Folder Names. For example I'll show me going back to the Downloads folder.
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/09a88096-bc1b-4b69-b56e-42ea562ead3f)
+
+As you see I am back at the same location. 
+
+Another quick tip, be careful with "/" placements, on Linux, if you do "cd /folderName" you are telling the computer to look at the root level, and go to the folder you named. Where as if you don't add a "/" beforehand, you are telling it to look at your current location
+
+For reference this is what the Linux Root looks like 
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/957a65d4-d6d1-4c6f-8a0d-c94c24d366fe)
+
+Although it won't be used often to run a "EXE" like file in Linux, assuming it's already an "EXE" like file you can do "./filename.extension" and it will run the file. This will be shown later
+
+Another useful command to know is "clear" once you type it in the terminal it essentially resets your screen. The command may be "cls" on different systems.
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/ee5147f8-7796-4ced-a307-b343e3102653)
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/e630df0a-6f00-4317-b47c-8c7caba03900)
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/8efe9179-a041-449b-9634-4cdaf37be567)
+
+Now this is basically the bare minimum you'll need so far, until we get to Docker. But I will show a cool thing for Linux Users (and possibly MacOS, idk if it's built in)
+
+In the Nanocar club, since we are majority nano, I have decided to exclusively use the "nano" editor when using Linux. So if you find a file you want to edit, when you are on Linux and you have "nano" installed you can do the following "nano filename.extension" and it will open the file for you to edit. The Following is an example
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/1e985ec2-9441-4124-9645-9bd2cf8ef7c6)
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/edafad00-0838-4404-a7b8-6061b438f0d3)
+
+
+A fun last exercise that you can do if you have Visual Studio Code installed on your device. Go and explore your device and find any directory you want. Once you've found it enter the folder you want to open. And then run "code .". If you have things installed correctly, Visual Studio Code should be opened up and will display your files
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/8e297915-1779-4455-92db-804f00760db5)
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/84c477f3-5100-4f71-9cdc-fbf27f7a4d71)
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/424f3b8b-7711-40a4-a323-441bdee5105a)
+
+Now you have the basics of Linux and Command line navigation
 
 
 
+
+## Summary
+
+### Commands
+
+- ls  (List)
+Shows all files and folders in your curent directory
+
+- cd (Change Directory)
+Changes the folder you'r terminal will be located in. Used like "cd folderName"
 
 
 
