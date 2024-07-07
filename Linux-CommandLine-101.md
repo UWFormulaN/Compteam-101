@@ -1,5 +1,17 @@
 # Linux and Command 101
 
+## Summary
+If you'd rather not look at or listen to my babbling the folowing Video does a great job at providing info quickly, effectively and goes more in depth. (WARNING COMEDY)
+[Linux Video](https://www.youtube.com/watch?v=LKCVKw9CzFo&t=29s)
+
+### Commands
+
+- ls  (List)
+Shows all files and folders in your curent directory
+
+- cd (Change Directory)
+Changes the folder you'r terminal will be located in. Used like "cd folderName"
+
 ## What is a Operating System (OS)?
 An Operating System is a piece/bundle of software packaged together that provides all the base functionality for a Computer to actually run. There are multiple types of operating systems and they each have their advantages and disadvantages. The main feature of a Operating System is to provide a Kernel, which is a bundle of Drivers and software that bridges the gap from communicating to indidual parts of your computer to the OS so that programs can communicate to those components and accomplish complex tasks such as Saving files, Drawing on your monitor, or communicating via a USB Cable. Most operating systems provide methods to run Programs or Aplications (Similar but different), provide a file system to organize your device, and often provide a Graphical User Interface (GUI) to let users use their computers using mouse clicks and visual features. Common Operating Systems used on Desktop/Laptop computers are Windows, MacOS and Linux and it's Distros. Additionally other OS's you may not have known are seperate are, and are all extremely specialized for their own use cases are, Chrome OS, Android, IOS, IpadOS, WatchOS, WearOS and plenty more. (The following are some of their logos)
 
@@ -149,20 +161,3 @@ A fun last exercise that you can do if you have Visual Studio Code installed on 
 ![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/424f3b8b-7711-40a4-a323-441bdee5105a)
 
 Now you have the basics of Linux and Command line navigation
-
-
-
-
-## Summary
-
-### Commands
-
-- ls  (List)
-Shows all files and folders in your curent directory
-
-- cd (Change Directory)
-Changes the folder you'r terminal will be located in. Used like "cd folderName"
-
-
-
-
