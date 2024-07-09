@@ -23,3 +23,56 @@ Speaking from experience, I've made a "Hackintosh" myself a few times, and even 
 Now Virtualization on the other hand is another story. The Key distinction of Virtualization is that only the file structure of your OS is simulated as a different device. Otherwise the "Container" which is kind of like a virtual machine. Can still use the full power of all your computers hardware, with near native speeds. Containers can also still be used for dangerous tasks, and if compromised also wont reflect on the entire computer. This is due to the complex Docker Engine which allows you to simulate all manners of operating systems, or just packages on their own. Docker is mostly used to split up the resources on a single computer so that it can act like many servers and offer services. Large companies like Google use Docker, or their own version of it to allocate, split their servers and upscale when traffic is going up. Containers are also ultra fast and can be created in seconds, can do their job and then shut down when needed, so they are effective for handling sudden spikes in internet activity. Each Container also still acts like their own computer which has a lot of advatges in certain projects.
 
 So Docker allows us to share containers between each other, which are specialized, and configured "OS Images" that have all the necessary things for a certain task. In the Nano Car club we use Docker to simulate Orca Quantum Chemistry software instances on our own devices while still taking access of parallalization (This is not possible on a normal Windows Device, so we make a Linux Container with Orca and OpenMPI, so that we do parallel tasks). Additionally, we can have multiple containers running at the same time, so you can run multiple Orca calculations at the same time in different containers and they will not interfere or mess each other up. They are also so quick and easy to use that all you need to do is download it, and then you can create one within a second. 
+
+
+## Downloading a Docker Image
+
+If you've ever played around with Git / Github, and specifically their command line tool, you may be a little familiar with the following concept. Doker functions by using base Images/ "OS's" that you then spin up to make a container. This allows you to store one copy of the OS image, and then docker will track the changes from the Base image it started with. This essentially allows you to make hundreds of containers, while using very little storage space. To download a base image you use the following command.
+
+(Assuming you have Docker Desktop Open/ The Docker Engine Running)
+```
+docker pull nameofimage
+```
+
+A prime example is the Hello World Docker Image, which is used to check if you properly installed Docker
+
+```
+docker pull hello-world
+```
+
+Keep in mind that all container names are **lower case only and no spaces**, underscores or dashes may be present, but there will never be capitals or spaces
+
+## Running a Docker Container
+
+Now that you've downloaded an image we want to try and run it. To do this we use the "docker run" command. Here is an example
+
+```
+docker run hello-world
+```
+
+Running this in the Terminal, you should get the following message if you've installed docker properly
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/13725a0d-ebde-48fd-b79e-6658795ec537)
+
+If you check your containers in Docker Desktop, you'll notice that the container you spawned is now shutdown and stopped, additional proof is that we are back to our C:/User/Username directory in the Command Prompt.
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/e502bf7c-a2d4-4ea1-ac00-20b87227bb9b)
+
+This means that the Docker Container was a "one time use", so it ran, did it's job / finished, and then it shut down. This is useful for many containers or tasks, but maybe that isn't what we want to do. This brings us to the Next Command.
+
+## Interactive Docker Containers
+
+If we don't want our containers to be a one time use, we need to add a flag to the container as we launch it. This is the Interactive flag, denoted by "-it". 
+
+Unfortunately the hello-world container is not designed to be interactive, which may be the case for a few more containers, so the -it flag wont work on it. So we will use a Linux Image to test it out.
+
+Lets download a Ubuntu image using the following command.
+
+Here is an example of it's usage.
+
+
+
+
+```
+docker run -it hello-world
+```
