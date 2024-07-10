@@ -70,9 +70,19 @@ Lets download a Ubuntu image using the following command.
 
 Here is an example of it's usage.
 
-
-
+First we will download the Ubuntu 22.04 Version. The Colon signifies the specific version you want to download, by default the version you download will be the latest. 
 
 ```
-docker run -it hello-world
+docker pull ubuntu:22.04
 ```
+
+Now to run a Docker Instance.
+
+```
+docker run -it ubuntu:22.04
+```
+
+![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/a4bef7e1-6214-4998-841f-1f2ca05f0187)
+
+Using the "ls" command
+
