@@ -84,5 +84,53 @@ docker run -it ubuntu:22.04
 
 ![image](https://github.com/UWFormulaN/Compteam-101/assets/93613553/a4bef7e1-6214-4998-841f-1f2ca05f0187)
 
-Using the "ls" command
+Using the "ls" command we can see the file structure of a linux system.
+
+![image](https://github.com/user-attachments/assets/c1ea780f-0d82-475d-ab40-46dfe459819c)
+
+This means that we are in a Linux Machine and Controlling it!
+
+Now you treat it as your own playground. For example, let's try downloading Nano, a simple text editor for Linux.
+
+Type in the following
+
+```
+apt-get update
+apt-get install nano
+```
+
+You should receive something similar to the following
+
+![image](https://github.com/user-attachments/assets/8fd82497-e6e4-4121-8f1b-f9de9bdc42c2)
+
+Apt-get update was to update the "App Store" that Ubuntu uses, and then the second command was to install the Nano app.
+
+Now if you change directories to "etc" and then look for a file to open using ls
+
+```
+cd etc
+ls
+```
+
+![image](https://github.com/user-attachments/assets/ac3b0468-6b05-4427-bc5b-fc714f1abed0)
+
+We will try opening "adduser.conf", do this by usuing the following command
+
+```
+nano adduser.conf
+```
+
+You'll receive something like this
+
+![image](https://github.com/user-attachments/assets/a47a5049-0797-4dc0-bd0c-f2675a3b9494)
+
+This means you've opened the File!
+
+To navigate around you need to use the Arrow keys on your keyboard, mouses will not work. Then you can type or modify the file and then click "CTRL + X" and click enter twice to save. It should bring you back to where you were before entering the file.
+
+
+
+
+
+
 
