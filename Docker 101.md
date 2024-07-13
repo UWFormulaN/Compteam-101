@@ -129,7 +129,9 @@ This means you've opened the File!
 To navigate around you need to use the Arrow keys on your keyboard, mouses will not work. Then you can type or modify the file and then click "CTRL + X" and click enter twice to save. It should bring you back to where you were before entering the file.
 
 
+## What's Next?
 
+For now this is basically all the knowledge you'll need for the Nano Cars Club, with the exception of learning the specific Linux commands for Orca. The process of running a Orca Calculation on the ECE Server, on your personal device, or understanding the innerworkings of QChem and Discorca all hinges on what you've learnt in the 2 past 101s. The Next 101 you should follow is the one specifically for Running Orca Calculations. 
 
 
 
