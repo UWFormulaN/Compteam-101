@@ -1,7 +1,7 @@
 # Linux and Command 101
 
 ## Summary
-If you'd rather not look at or listen to my babbling the folowing Video does a great job at providing info quickly, effectively and goes more in depth. (WARNING COMEDY)
+If you'd rather not look at or listen to my babbling the following Video does a great job at providing info quickly, effectively and goes more in depth. (WARNING COMEDY)
 
 
 [Linux Video](https://www.youtube.com/watch?v=LKCVKw9CzFo&t=29s)
