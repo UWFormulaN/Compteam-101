@@ -2,7 +2,7 @@
 
 
 ## Summary
-If you'd rather not look at or listen to my babbling the folowing Video does a great job at providing info quickly, effectively and goes more in depth. (WARNING COMEDY)
+If you'd rather not look at or listen to my babbling the following Video does a great job at providing info quickly, effectively and goes more in depth. (WARNING COMEDY)
 
 [Docker 101 Video](https://www.youtube.com/watch?v=rIrNIzy6U_g)
 
